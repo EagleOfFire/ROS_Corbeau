@@ -1,0 +1,9 @@
+name: ROS_Corbeau
+version: '${version}'
+main: eagleoffire.roscorbeau
+authors: [EagleOfFire]
+description: Un plugin pour s'envoyer des corbeaux
+commands:
+  corbeau:
+    description: Un moyen de communication comme un autre.
+    usage: /<command> [village | joueur]
